@@ -88,7 +88,7 @@ declare interface Props {
   /**
    * click function
    */
-  onClick?: MouseEventHandler<any>;
+  onClick: () => void;
 }
 
 declare const TinderCard: React.FC<Props>;
